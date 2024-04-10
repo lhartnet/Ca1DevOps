@@ -29,4 +29,4 @@ jobs:
         run: dotnet build --configuration Release
 
       - name: Print build success message
-        run: echo "The repo successfully built! :) "
+        run: echo "The repo successfully built!! :) "
