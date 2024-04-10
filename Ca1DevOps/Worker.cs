@@ -15,6 +15,7 @@ namespace Ca1DevOps
             {
                 _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
                 _logger.LogInformation("Adding a new line for testing");
+                _logger.LogInformation("Adding a new line for testing build workflow on a branch");
                 await Task.Delay(1000, stoppingToken);
             }
         }
