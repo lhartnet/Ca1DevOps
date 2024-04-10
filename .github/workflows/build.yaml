@@ -28,5 +28,8 @@ jobs:
       - name: Build
         run: dotnet build --configuration Release
 
+      - name: StyleCop Check
+        run: dotnet build /p:StyleCopEnabled=true
+
       - name: Print build success message
         run: echo "The repo successfully built!! :) "
