@@ -27,7 +27,7 @@ namespace Ca1DevOps
 
                 // Log the names of the files
                 _logger.LogInformation($"Files in folder {_folderPath}:");
-                _logger.LogInformation("Add a line to test new yaml file");
+                _logger.LogInformation("Change line to test broken yaml file");
                 foreach (string file in files)
                 {
                     _logger.LogInformation($"- {Path.GetFileName(file)}");
