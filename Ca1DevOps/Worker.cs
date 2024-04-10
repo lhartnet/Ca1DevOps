@@ -34,7 +34,7 @@ namespace Ca1DevOps
             catch (Exception ex)
             {
                 // Log any exceptions
-                _logger.LogError($"Error checking folder contents: {ex.Message}");
+                _logger.LogError($"Error checking folder con....tents: {ex.Message}");
             }
         }
     }
