@@ -22,10 +22,8 @@ namespace Ca1DevOps
         {
             try
             {
-                // Get all files in the folder
                 string[] files = Directory.GetFiles(_folderPath);
 
-                // Log the names of the files
                 _logger.LogInformation($"Files in folder {_folderPath}:");
                 _logger.LogInformation("Change line again to test broken yaml file");
                 foreach (string file in files)
